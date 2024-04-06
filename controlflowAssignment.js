@@ -5,7 +5,7 @@
 
 function array(arr) {
     for (let i = 0; i < 4; i++) {
-        arr[i] *= arr[i];
+        arr[i] = arr[i];
     }
 
     arr[arr.length - 2] += 10;
